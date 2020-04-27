@@ -61,3 +61,4 @@ CSS files are read from top to bottom, so it is important to understand which ru
 If two rules have identical selectors, the *last* rule will take precedence (meaning the one lowest on the style sheet). 
 Specificity will also take precedence over other selectors. For example, if a rule is applied to a body tag, and a different rule is applied to the h1 inside the body, the rule applied to the h1 tag will take precende because it is more specific. 
 
+**[Back to Home Page](README.md)**
