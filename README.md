@@ -6,7 +6,7 @@ These are my *soon-to-be* reading notes for **Code 201**.
 
 1. [Reading Assingment](filename.html)
 
-2. [Reading Assingment](filename.html)
+2. [Reading #2](reading2.md)
 
 3. [Reading Assingment](filename.html)
 
