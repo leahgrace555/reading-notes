@@ -1,6 +1,4 @@
-# Reading Assignment 2
-
-## Useful HTML tags
+# Introducing HTML
 
 | Tag     |       Meaning/Use        |
 |----------|-------------------------|
@@ -24,7 +22,6 @@ The following elements are known as *semantic markup*. They do not affect the st
 | `<dfn>` | Used to indicate the defining instance of a term|
 |` <cite> `| Used to indicate a source when citing a piece of work, such as a book or film. | 
 
-## Introducing CSS
 
 # Introducing CSS
 
@@ -60,5 +57,66 @@ Link an external style sheet by doing the following:
 CSS files are read from top to bottom, so it is important to understand which rules will take precedence over others.
 If two rules have identical selectors, the *last* rule will take precedence (meaning the one lowest on the style sheet). 
 Specificity will also take precedence over other selectors. For example, if a rule is applied to a body tag, and a different rule is applied to the h1 inside the body, the rule applied to the h1 tag will take precende because it is more specific. 
+
+# JavaScript
+
+## Placing Script in the Page
+
+JavaScript can be added between `<script>` tags, but it is better to use an external sheet and call functions on the page as needed.
+
+Note: *JavaScript will run where it is found in the HTML*. When the browser comes across the `<script>`, it 'checks' if it needs to do anything (i.e. run a function). 
+
+## Objectives and Methods
+
+Script is a series of instructions that a computer can follow one-by-one. 
+
+Each step is known as a **statement**
+
+Things to note:
+-JavaScript is ***case sensitive***
+- Each statement should start on a new line and end with a semicolon
+- Statements can be organize into code blocks with curly brackets. 
+
+## Comments
+
+Comments can be single line or multiline
+- Add a single line comment with two forward slashes // --anything after the slashes on that line will be interpreted as a comment
+- Add a multiline comment by surrounding the text with /* text goes here
+and also here */
+
+## Variables
+
+Before you can use variables, you must declare that you want to use them them with a statement such as: ` var quantity; ` where "var" is the variable keyword and "quantity" is the variable name. Multi-word variables must be written in camelCase
+
+Once you create a variable, you can assign it a value. For example, ` quantity = 3; ` is how we assign a value to the variable we created in the previous example.
+
+There are three types of data
+
+1. Numeric data consists of numbers
+2. String data consists of letters and other characters
+3. Boolean data can have one of two values, true or false
+
+There are six rules you must always follow when naming variables:
+
+1. Names must begin with a letter, dollar sign or underscone. Never a number. 
+2. The name can contain letters, numbers, dollar sign or underscores. Do not use a dash or dot in a variable name
+3. You cannot use keywords or reserved words
+4. Variables are case sensitive
+5. Use a name that describes the kind of information the variable stores
+6. When using mutiple words in a variable, type in camelCase, or use underscores instead of spaces. 
+
+## Arrays
+
+Arrays are a set of values that are related to each other.This may be used in place of a long list of variables. 
+
+example:
+
+````
+var colors;
+colors = ['white','black','custom'];
+````
+Values in array are given an index, or number that can be used to reference. Note that **index values start at 0, not 1**
+
+
 
 **[Back to Home Page](README.md)**
