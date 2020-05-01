@@ -12,7 +12,7 @@ These are my *soon-to-be* reading notes for **Code 201**.
 
 4. [Reading #4](class-04.md)
 
-5. [Reading Assingment](filename.md)
+5. [Reading #5](class-05.md.md)
 
 6. [Reading Assingment](filename.md)
  
