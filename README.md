@@ -14,7 +14,7 @@ These are my *soon-to-be* reading notes for **Code 201**.
 
 5. [Reading #5](class-05.md)
 
-6. [Reading Assingment](filename.md)
+6. [Reading #6](class-06.md)
  
 7. [Reading Assingment](filename.md)
  
