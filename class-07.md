@@ -46,7 +46,7 @@ to create instances:
 
 ````
 var newHotel = new Hotel('quay',40,25);
-```
+````
 
 Accessing objects in constructor notation:
 - after you create instances of an object, you cna access their properties using the same dot notation as other objects
