@@ -66,7 +66,7 @@ Accessing objects in constructor notation:
 - Document object
 - Global objects (strings, numbers, decimal, math).
 
-**[Back to Main Page](README.md)
+**[Back to Main Page](README.md)**
 
 
 
